@@ -1,0 +1,106 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: Titillium,Nunito,Bebas-Neue;
+}
+
+.section-3{
+   background-color:#fa5da6;
+   margin: 2%;
+   width: 100vw;
+   color: white;
+   
+}
+.card-body {
+   padding-top: 25%;
+}
+.card-body p{
+   font-size: 1rem;
+   word-spacing: 2px;
+   line-height: 1rem;
+   margin-top:  7%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.card-body h1{
+   font-weight: lighter;
+   word-spacing: 2px;
+   letter-spacing: 2px;
+   margin-left: 10%;
+   margin-right: 10%;   
+
+}
+.see-more{
+   margin: 30% 10%;
+}
+.see-more a{
+   text-decoration: none;
+   color: white;
+   border: 1px solid #f02885;
+   background-color: #f02885;
+   padding: 5% 17%;
+   border-radius: 5px;
+   font-size: 1.1rem;
+}
+.see-more a:hover{
+   background-color:#cc0662 ;
+   border: 1px black;
+   border-style: double;
+}
+section{
+   background-color: #447fd8;
+   text-align: center;
+   color: white;
+   margin:2%;
+   padding: 5% 2%;
+
+}
+.col {
+   margin: 5% 0% ;
+   text-align: center;
+}
+.col img{
+   height: 29%;
+   margin: 15%;
+  
+}
+section h1 {
+   font-weight: lighter;
+   
+}
+.col a{
+   text-decoration: none;
+   font-weight:900;
+   color: white;
+}
+.col a:hover{
+   text-decoration: white underline;
+}
+.card .card-img{
+   height: 250px;
+   
+}
+
+.card{
+   border: none;
+}
+.card-img-overlay p{
+   margin: 5% 3%;
+   font-weight: 900;
+}
+.footer{
+   line-height: 0px;
+   height: 30px;  
+}
+.footer .col{
+   width: 30%;
+   padding-left: 40px;
+   font-weight: 900;
+}
+.section-5{
+   width: 50%;
+   margin-right: 45%;
+}
+.footer .col a:hover{
+   text-decoration: underline white;
+}
