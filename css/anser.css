@@ -1,0 +1,218 @@
+:root{
+    --font-color-light-grey:#4c4c4c;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    position:relative;
+}
+.container-2{
+    width:100%;
+    height:86vh;
+    padding:0 2.5rem 0 2.5rem;
+}
+
+
+
+
+.delivery{
+    background-color: #e83e8c;
+}
+.delivery img{
+    height:85.5vh;
+    width:63.3vw;
+    margin-left: -1rem;
+    object-fit:cover;
+}
+.delivery .txt{
+    padding:0rem 3rem ;
+    color:white;
+}
+.delivery h5{
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.delivery h3{
+    padding:2rem 0;
+    font-weight: 500;
+    align-items: flex-start;
+    font-size: 3rem;
+}
+.btn{
+    border-radius: 7px;
+    font-size: 0.8rem;
+    margin-right: 9rem;
+    padding:1rem 0;
+    font-weight: 700;
+}
+
+body > section:nth-child(1) > div > div > div.txt.d-flex.flex-column.justify-content-around.col-lg-4.col-md-4.col-12.w-40 > a{
+    background-color:#e9007f;
+    color:white!important;  
+    border:0;  
+}
+body > section:nth-child(1) > div > div > div.txt.d-flex.flex-column.justify-content-around.col-lg-4.col-md-4.col-12.w-40 > a:hover{
+    background-color: #8d004e;
+    color: #fff!important;
+}
+
+
+/* Header */
+.a-space{
+    margin-left: 7rem;
+}
+.a-space a{
+    color:var(--font-color-light-grey);
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.a-space a:hover{
+    color:#0074D9;
+    cursor: pointer;
+    padding-bottom: 0.3rems;
+    border-bottom: 2px solid red;
+}
+.sub-space{
+    margin-right:5rem;
+}
+
+/* Family */
+.starting1{
+    margin-top: 0rem;
+    margin-left: 3.5px;
+    /* border:3px solid brown;  */
+}
+.card .text{
+    /* border:1px solid black; */
+    padding: 13.3rem 0rem 0rem 7rem;
+    color:white;
+}
+.text h5{
+    font-size:1rem;
+    font-weight: 800;
+    line-height: 0.5px;
+    letter-spacing: 1.5px;
+    padding-bottom: 2rem;
+}
+.text h2{
+    font-size:3rem;
+    font-weight: 800;
+    line-height: 1rem;
+    letter-spacing: 2px;
+}
+.sup{
+    vertical-align: super;
+    font-size: 1rem;
+}
+.sup-2{
+    vertical-align: super;
+    font-size: smaller;
+}
+.text{
+    color:var(--font-color-light-grey);
+    font-size:0.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.Underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Quality */
+.Quality{
+    margin:2rem 3rem;
+}
+.Quality img{
+    height: 4.5rem;
+    margin:20px 0;
+}
+.Quality p{
+    font-size: 1.3rem;
+    color:var(--font-color-light-grey);
+    font-weight: 600;
+}
+/* Area With Glass */
+
+.container-xl{
+    width:83.4rem;   
+}
+.glass img{
+    width:46.52vw;
+    height:97.5vh;
+}
+.table{
+    background-color: #e9f6f8;
+}
+.table .text{
+    color:#023f97;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.table h3{
+    font-size:1.6rem;
+    font-weight: 600;
+    padding-bottom: 2rem 0.5rem;
+}
+.table p{
+    padding:2rem 1rem 17rem 0;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+.table{
+    height:95vh;
+}
+/* Area With Bottles Pic */
+.bottle{
+    background-color: #4c85c0;
+}
+.bottle img{
+    height:85.5vh;
+    width:62.3vw;
+    object-fit:cover;
+}
+.bottle .txt{
+    padding:0rem 3rem;
+    color:white;
+}
+.bottle h5{
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.bottle h3{
+    padding:2rem 0;
+    font-weight: 500;
+    align-items: flex-start;
+    font-size: 3rem;
+}
+.bottle p{
+    padding:0 0 1rem 0;
+    width:80%;
+    font-weight: 500;
+    align-items: flex-start;
+    font-size: 0.9rem;
+}
+.btn{
+    border-radius: 7px;
+    font-size: 0.8rem;
+    margin-right: 9rem;
+    padding:1rem 0;
+    font-weight: 700;
+}
+.btn-success{
+    background-color:#0051a6 ;
+    color:white!important;
+    border:0;
+}
+.btn-success:hover{
+    background-color: #e83e8c;
+    color: #fff!important;
+}
