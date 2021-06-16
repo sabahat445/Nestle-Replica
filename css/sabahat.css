@@ -5,11 +5,51 @@ body{
 }
 .section-3{
    background-color:#fa5da6;
-   margin: 2%;
-   width: 100vw;
-   color: white;
-   
 }
+.section-3 img{
+   height:85.5vh;
+   width:62.3vw;
+   object-fit: cover;
+}
+
+.section-3 .txt{
+   padding:0rem 3rem;
+   color:white;
+}
+.section-3 h3{
+   padding:2rem 0;
+   font-weight: 500;
+   align-items: flex-start;
+   font-size: 3rem;
+}
+.section-3 p{
+   padding:0 0 1rem 0;
+   width:80%;
+   font-weight: 500;
+   align-items: flex-start;
+   font-size: 0.9rem;
+}
+
+.s-btn{
+   border-radius: 7px;
+   font-size: 0.8rem;
+   margin-right: 9rem;
+   padding:1rem 0;
+   font-weight: 700;
+   text-decoration: none;
+   text-align: center;
+}
+.s-btn-success{
+   background-color:#e83e8c ;
+   color:white!important;
+   border:0;
+}
+.s-btn-success:hover{
+   text-decoration: none;
+   background-color: #910044;
+   color: #fff!important;
+}
+
 .card-body {
    padding-top: 25%;
 }
