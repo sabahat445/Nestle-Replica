@@ -77,6 +77,12 @@ body > section:nth-child(1) > div > div > div.txt.d-flex.flex-column.justify-con
     padding-bottom: 0.3rems;
     border-bottom: 2px solid red;
 }
+.active{
+    color:#0074D9;
+    /* cursor: pointer; */
+    padding-bottom: 0.3rems;
+    border-bottom: 2px solid red;
+}
 .sub-space{
     margin-right:5rem;
 }
