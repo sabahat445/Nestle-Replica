@@ -1,0 +1,141 @@
+.main-img{
+    width: 100px;
+    height: 100px;
+    padding-left: 48%;
+}
+.main-img img{
+    width: 7rem;
+    height: 7rem;
+    margin:1rem 0;
+}
+.main-menu{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+.main-menu ul{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+.main-menu ul li a{
+    padding-left: 70px;
+    text-decoration: none;
+    color: #444242;
+    font-weight: bold;
+}
+
+.main-menu ul li a:hover{
+    text-decoration: 3px underline #e9007f;
+}
+
+.image-1{
+    background-image: url(/images/1420x480.jpg);
+    background-position:1%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 73vh;
+    margin-left: 25px;
+}
+.image-1 p{
+    padding: 175px 0px 2px 100px; 
+    color: #fff;
+    font-size: 1em;
+    word-spacing: 6px;
+}
+.image-1 h1{
+    padding-left: 100px;
+    color: #fff;
+    font-size: 2.8em;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+
+.text-2{
+    display: flex;
+    padding:20px 25px;
+}
+
+.text-2 span{
+    font-size: 0.7em;
+    color: #444242;
+}
+.text-2 a{
+    padding-right: 10px;
+    color: #444242;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.text-2 p{
+    color: #e25295;
+    font-size: 0.8em;
+}
+#menu-2{
+    border-bottom: 1px solid lightblue;
+    border-top: 1px solid lightblue;
+    padding-bottom: 0;
+    padding-top:1rem ;
+    /* align-items: center; */
+}
+#menu-2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu-2 ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+    font-weight: bold;
+    color: hsl(195, 52%, 53%);
+    
+}
+
+#menu-2 ul li a:hover{
+    text-decoration: 4px underline rgb(223, 96, 117);
+    padding-left: 50px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+#buy{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: space-evenly;
+    grid-template-rows:repeat(2,auto) ;
+	margin-top: 100px;
+	grid-row-gap: 20px;
+	grid-column-gap: 30px;
+}
+
+.buy-bottle-1{
+    width: 300px;
+    height: 300px;
+}
+
+.buy-bottle-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-buy{
+    font-size: 0.7rem;
+    letter-spacing: 1rem;
+}
+
+.button-1 button{
+    margin-top: 40px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #e9007f;
+    border: 1px solid #e9007f;
+}
+
+.button-1 button:hover{
+    text-decoration:1px white underline;
+}
