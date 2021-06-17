@@ -15,10 +15,8 @@ header{
     height:86vh;
     padding:0 2.5rem 0 2.5rem;
 }
-
-
-
-
+/* My Buy Purification Water's Part: */
+/* Delivery Section */
 .delivery{
     background-color: #e83e8c;
 }
@@ -43,7 +41,14 @@ header{
     align-items: flex-start;
     font-size: 3rem;
 }
-.btn{
+.btn-2{
+    border-radius: 7px;
+    font-size: 0.8rem;
+    margin-right: 9rem;
+    padding:1rem 0;
+    font-weight: 700;
+}
+.btn-2{
     border-radius: 7px;
     font-size: 0.8rem;
     margin-right: 9rem;
@@ -51,16 +56,56 @@ header{
     font-weight: 700;
 }
 
-body > section:nth-child(1) > div > div > div.txt.d-flex.flex-column.justify-content-around.col-lg-4.col-md-4.col-12.w-40 > a{
-    background-color:#e9007f;
-    color:white!important;  
-    border:0;  
+.btn-2-success {
+    background-color: #e9007f;
+    color: white!important;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
 }
-body > section:nth-child(1) > div > div > div.txt.d-flex.flex-column.justify-content-around.col-lg-4.col-md-4.col-12.w-40 > a:hover{
-    background-color: #8d004e;
+.btn-2-success:hover{
+    background-color: #8d004e !important;
+    text-decoration: none;
     color: #fff!important;
 }
 
+/* Footer */
+.footer-image{
+    width:100%;
+    height:37vh;
+}
+.footer-text{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+}
+.text-footer p{
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+.position1{
+    margin-left: 10rem;
+}
+.fab{
+    margin-left: 0.5rem;
+}
+.fab:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.tagline{
+    margin-top: 2rem;
+    margin-left:9rem;
+    font-size:0.9rem;
+}
+
+
+/* My About Page's Start: */
 
 /* Header */
 .a-space{
